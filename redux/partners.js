@@ -1,6 +1,6 @@
 import * as ActionTypes from "./ActionTypes";
 
-export const Partners = (
+export const partners = (
   state = { isLoading: true, errMess: null, partners: [] },
   action
 ) => {
@@ -12,6 +12,7 @@ export const Partners = (
         errMess: null,
         partners: action.payload,
       };
+
     case ActionTypes.PARTNERS_LOADING:
       return { ...state, isLoading: true, errMess: null, partners: [] };
 

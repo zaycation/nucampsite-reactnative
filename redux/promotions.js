@@ -1,6 +1,6 @@
 import * as ActionTypes from "./ActionTypes";
 
-export const Promotions = (
+export const promotions = (
   state = { isLoading: true, errMess: null, promotions: [] },
   action
 ) => {
