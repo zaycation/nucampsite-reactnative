@@ -1,5 +1,6 @@
 import React from "react";
 import { ActivityIndicator, StyleSheet, Text, View } from "react-native";
+
 function Loading() {
   return (
     <View style={styles.loadingView}>
@@ -21,3 +22,5 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
 });
+
+export default Loading;

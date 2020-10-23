@@ -12,7 +12,6 @@ const mapStateToProps = (state) => {
     partners: state.partners,
   };
 };
-
 function RenderItem(props) {
   const { item } = props;
 

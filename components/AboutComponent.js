@@ -31,13 +31,12 @@ class About extends Component {
   static navigationOptions = {
     title: "About Us",
   };
-
   render() {
     const renderPartner = ({ item }) => {
       return (
         <ListItem
           title={item.name}
-          subTitle={item.description}
+          subtitle={item.description}
           leftAvatar={{ source: { uri: baseUrl + item.image } }}
         />
       );
@@ -63,7 +62,6 @@ class About extends Component {
         </ScrollView>
       );
     }
-
     return (
       <ScrollView>
         <Mission />
